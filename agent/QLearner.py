@@ -1,7 +1,7 @@
 import gymnasium as gym
 import numpy as np
 import time
-from src.utils.agent import q_update_bellmann, epsilon_greedy, episodes_rewards_plot, select_epsilon
+from utils.agent import q_update_bellmann, epsilon_greedy, episodes_rewards_plot, select_epsilon
 
 class QLearnig():
     def __init__(self, env:gym.Env):

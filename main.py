@@ -1,6 +1,6 @@
-from src.env.env import Env
-from src.agent.QLearner import QLearnig, QLearningTest
-from src.utils.agent import epsilon_greedy
+from env.env import Env
+from agent.QLearner import QLearnig, QLearningTest
+from utils.agent import epsilon_greedy
 import numpy as np
 import gymnasium as gym
 
