@@ -44,8 +44,8 @@ def frozen_lake_test(agent: QLearnig, episodes:int):
 
 
 if __name__ == "__main__":
-    # agent = taxi_q_learning()
-    # taxi_test(agent, 10)
+    agent = taxi_q_learning()
+    taxi_test(agent, 10)
     agent = frozen_lake_q_learing()
     frozen_lake_test(agent, 5)
 
